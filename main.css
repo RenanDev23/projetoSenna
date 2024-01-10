@@ -1,0 +1,163 @@
+* {
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #ecf0f1;
+    display: inline-block;
+    margin-right:10%;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 6px;
+    margin-left: 40px;
+    padding: 40px;
+}
+
+h2 {
+    color:#ecf0f1;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 3px;
+    margin-left: 70px;
+}
+
+header {
+    background-color: #f00;
+    border-bottom: 5px solid;
+    padding: 2px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+main {
+    background-color: #B9B9B9;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 30px;
+}
+
+.container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.container li {
+    font-size: small;
+}
+
+.container a {
+    text-decoration: none;
+    display: inline-flex;
+}
+
+#traject h2, p {
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#traject li {
+    display: inline;
+    margin-right: 8px;
+}
+
+#traject img {
+    height: 150px;
+    border-left:15px solid #d71717;
+    margin-left: 70px;
+    border-radius: 30%;
+    object-fit: cover;
+    align-items:center;
+}
+
+#watch video {
+    border-radius: 10%;
+    object-fit: cover;
+    align-items: center;
+    border-left:15px solid #d71717;
+    margin-left: 70px;
+}
+
+#legacy li {
+    border-radius: 10%;
+    object-fit: cover;
+    align-items:center;
+    border-left:15px solid #d71717;
+    margin-left: 40px;
+}
+
+#legacy video {
+    border-radius: 10%;
+    align-items:center;
+}
+
+#social-media .social-links li img {
+    height: 24px;
+}
+
+#social-media li {
+    display: inline;
+    margin-right: 8px;
+    margin-left: 30px;
+}
+
+.campo-form,
+.campo-textarea {
+  width: 200px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+form input,
+textarea,
+form button {
+    display: block;
+    width: 400px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 60px;
+}
+
+form button {
+    margin-right: 20px;
+    margin-left: 70px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+    margin-left: 60px;
+}
+
+form button {
+    background-color: #f00;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #d71717;
+}
+
+footer {
+    color:#aaa;
+    background-color: #067008;
+    margin-left: 40px;
+    margin-right: 40px;
+    padding: 10px 0;
+    border-top: 20px solid #dbc501;
+    text-align: center;
+}
